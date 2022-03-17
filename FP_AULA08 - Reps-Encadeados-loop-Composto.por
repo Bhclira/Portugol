@@ -1,7 +1,24 @@
 /* REPETIÇÕES ENCADEADAS COM LOOP DENTRO
  *  
- * Mostrar na tela as tabuadas dos números 3, 4, 5 e 6. (Decida qual/quais laços
+ * Mostrar na tela as tabuadas dos números 3(inicio do loop), 4, 5 e 6. (Decida qual/quais laços
  * de repetição utilizar).
+ * 
+ * inicio Algoritmo
+ * 
+ * inicialize i multiplicador, numero
+ * atribua i numero == 3 (inicio de futuro loop)
+ * 
+ * inicio Enquanto (<=6)
+ * escreva taboada de "numero" (numero corre de 3 a 6)
+ * atribua i multiplicador = 1 (
+ * 	inicio Enquanto (multiplicador<=10)
+ * 	escreva resultado(numero*multiplicador)
+ * 	acrescente +1 no multiplicador (contador)
+ * 	fim Enquando
+ * acrescente +1 ao numero (que corre de 3 a 6)
+ * 
+ * fim Algoritmo
+ * 
  */
 
 programa
@@ -36,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 529; 
+ * @POSICAO-CURSOR = 621; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
