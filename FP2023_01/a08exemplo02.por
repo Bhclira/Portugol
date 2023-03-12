@@ -8,6 +8,7 @@ ao final, informar a altura média do time.
 
 Arredonde a média com duas casas decimais.
  */
+	inclua biblioteca Matematica
 	
 	funcao inicio()
 	{
@@ -27,6 +28,7 @@ Arredonde a média com duas casas decimais.
 		}
 
 		media = soma_altura/qtd_jogador
+		media = Matematica.arredondar(media, 2)
 
 		escreva("A média da altura dos jogadores do time listados é de: ", media, "\n" )
 	}
@@ -36,7 +38,7 @@ Arredonde a média com duas casas decimais.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 585; 
+ * @POSICAO-CURSOR = 754; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
