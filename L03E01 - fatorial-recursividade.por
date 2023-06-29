@@ -26,7 +26,7 @@ programa
 		senao {
 			retorne n * fatorial(n - 1)
 		}
-		}
+	}
 }
 
 /* $$$ Portugol Studio $$$ 
@@ -34,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 127; 
+ * @POSICAO-CURSOR = 394; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
